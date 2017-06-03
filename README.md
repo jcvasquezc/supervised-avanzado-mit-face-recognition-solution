@@ -50,8 +50,8 @@ donde `n_aciertos` es el numero de imagenes clasificadas de forma correcta y `n_
 Ver procedimiento de [solución](https://github.com/colomb-ia/formato-retos#solucion)
 
 #### Requerimientos
-*Keras*
-*Tensorflow*
+Keras
+Tensorflow
 
 #### Procedimiento
 La Solución se encuentra en el archivo [python-sample-Solution MIT faces.ipynb](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/python-sample-Solution-MIT-faces.ipynb)
@@ -74,10 +74,10 @@ featuresTest=(featuresTest-avg_image)/std_image```
 Se utilizó una red neuronal recurrente (RNN) con unidades de memoria LSTM (RNN-LSTM) la cual permite analizar la dependencia de los pixels de la imagen del rostro con sus vecinos.
 
 #### Resultados
-99.9999999999999999999\%
+99.9999\%
 
-![Matriz de confusion](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/cmLSTMpng)
-![perdidas](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/lossLSTM.png)
+![Matriz de confusion](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/blob/master/cmLSTM.png)
+![perdidas](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/blob/master/lossLSTM.png)
 
 
 ### Requerimientos
