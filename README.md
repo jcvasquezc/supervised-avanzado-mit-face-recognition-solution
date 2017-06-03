@@ -54,7 +54,7 @@ Ver procedimiento de [solución](https://github.com/colomb-ia/formato-retos#solu
 *Tensorflow*
 
 #### Procedimiento
-La Solución se encuentra en el archivo [python-sample-Solution MIT faces.ipynb](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/python-sample-Solution MIT faces.ipynb)
+La Solución se encuentra en el archivo [python-sample-Solution MIT faces.ipynb](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/python-sample-Solution-MIT-faces.ipynb)
 
 1. Se estandarizan los conjuntos e entrenamiento y test para tener media ceero y desviaci+on estándar 1, con base en el conjunto de entrenamiento, de la siguiente forma
 
@@ -74,10 +74,10 @@ featuresTest=(featuresTest-avg_image)/std_image```
 Se utilizó una red neuronal recurrente (RNN) con unidades de memoria LSTM (RNN-LSTM) la cual permite analizar la dependencia de los pixels de la imagen del rostro con sus vecinos.
 
 #### Resultados
-99.9999999999999999999%
+99.9999999999999999999\%
 
-![](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/cmLSTM.pdf)
-![](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/lossLSTM.pdf)
+![](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/cmLSTMpng)
+![](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/lossLSTM.png)
 
 
 ### Requerimientos
