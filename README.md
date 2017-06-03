@@ -76,8 +76,8 @@ Se utilizó una red neuronal recurrente (RNN) con unidades de memoria LSTM (RNN-
 #### Resultados
 99.9999999999999999999\%
 
-![](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/cmLSTMpng)
-![](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/lossLSTM.png)
+![Matriz de confusion](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/cmLSTMpng)
+![perdidas](https://github.com/jcvasquezc/supervised-avanzado-mit-face-recognition-solution/master/lossLSTM.png)
 
 
 ### Requerimientos
