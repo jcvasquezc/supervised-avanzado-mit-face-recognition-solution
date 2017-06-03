@@ -64,6 +64,7 @@ std_image=np.std(featuresTrain,0)
 
 featuresTrain=(featuresTrain-avg_image)/std_image
 featuresTest=(featuresTest-avg_image)/std_image```
+```
 
 1. Se construye y entrena un modelo basado en una red neuronal recurrente con unidades de memoria LSTM [RNN-LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) con 64 unidades en su capa oculta
 
